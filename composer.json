@@ -1,0 +1,15 @@
+{
+    "name": "virtualorz/hello",
+    "authors": [
+        {
+            "name": "virtualorz",
+            "email": "virtualorz@btsdesign.com.tw"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Virtualorz\\Hello\\": "src/"
+        }
+    }
+}
