@@ -19,6 +19,7 @@ class HelloServiceProvider extends ServiceProvider
         include(__DIR__ . '/routes.php');
     
         $this->loadViewsFrom(__DIR__ . '/views', 'Hello');*/
+        $this->loadMigrationsFrom(__DIR__.'/database/migrations');
     }
 
     /**
