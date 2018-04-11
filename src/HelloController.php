@@ -17,7 +17,7 @@ class Hello
 
     public function __construct($a=””, $b=””)
     {
-        $this->result = $a + $b;
+        $this->result = ($a + $b) *3;
     }
     public function result()
     {
