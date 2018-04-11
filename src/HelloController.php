@@ -5,7 +5,7 @@ namespace Virtualorz\Hello;
 use App\Http\Controllers\Controller;
 use App\Http\Requests;
 
-class HelloController extends Controller
+class Hello
 {
     //
     public $result = '';

@@ -14,11 +14,11 @@ class HelloServiceProvider extends ServiceProvider
     public function boot()
     {
         //
-        $this->app->make(HelloController::class);
+        /*$this->app->make(HelloController::class);
 
         include(__DIR__ . '/routes.php');
     
-        $this->loadViewsFrom(__DIR__ . '/views', 'Hello');
+        $this->loadViewsFrom(__DIR__ . '/views', 'Hello');*/
     }
 
     /**
